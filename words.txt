@@ -1,0 +1,81 @@
+#[word, category]
+Abacate,Fruta
+Roma,Fruta
+Minecraft,Jogo
+Roblox,Jogo
+Free Fire,Jogo
+Banana,Fruta
+Maçã,Fruta
+Laranja,Fruta
+Manga,Fruta
+Melancia,Fruta
+Cachorro,Animal
+Gato,Animal
+Elefante,Animal
+Leão,Animal
+Tigre,Animal
+Urso,Animal
+Girafa,Animal
+Zebra,Animal
+Canguru,Animal
+Panda,Animal
+Brasil,País
+Argentina,País
+Alemanha,País
+Japão,País
+Canadá,País
+França,País
+Itália,País
+Portugal,País
+México,País
+Austrália,País
+São Paulo,Cidade
+Paris,Cidade
+Toquio,Cidade
+Nova York,Cidade
+Londres,Cidade
+Berlim,Cidade
+Madri,Cidade
+Roma,Cidade
+Toronto,Cidade
+Sydney,Cidade
+Pizza,Comida
+Hambúrguer,Comida
+Sushi,Comida
+Lasanha,Comida
+Taco,Comida
+Salada,Comida
+Bolo,Comida
+Chocolate,Comida
+Sorvete,Comida
+Macarrão,Comida
+Computador,Tecnologia
+Smartphone,Tecnologia
+Internet,Tecnologia
+Servidor,Tecnologia
+Banco de Dados,Tecnologia
+JavaScript,Tecnologia
+Python,Tecnologia
+Java,Tecnologia
+Linux,Tecnologia
+Windows,Tecnologia
+Titanic,Filme
+Avatar,Filme
+Matrix,Filme
+Gladiador,Filme
+Interestelar,Filme
+Inception,Filme
+Frozen,Filme
+Shrek,Filme
+Batman,Filme
+Superman,Filme
+Breaking Bad,Série
+Stranger Things,Série
+The Office,Série
+Friends,Série
+Game of Thrones,Série
+The Witcher,Série
+Dark,Série
+Loki,Série
+The Mandalorian,Série
+Narcos,Série
