@@ -1,81 +1,87 @@
-#[word, category]
-Abacate,Fruta
-Roma,Fruta
-Minecraft,Jogo
-Roblox,Jogo
-Free Fire,Jogo
-Banana,Fruta
-Maçã,Fruta
-Laranja,Fruta
-Manga,Fruta
-Melancia,Fruta
-Cachorro,Animal
-Gato,Animal
-Elefante,Animal
-Leão,Animal
-Tigre,Animal
-Urso,Animal
-Girafa,Animal
-Zebra,Animal
-Canguru,Animal
-Panda,Animal
-Brasil,País
-Argentina,País
-Alemanha,País
-Japão,País
-Canadá,País
-França,País
-Itália,País
-Portugal,País
-México,País
-Austrália,País
-São Paulo,Cidade
-Paris,Cidade
-Toquio,Cidade
-Nova York,Cidade
-Londres,Cidade
-Berlim,Cidade
-Madri,Cidade
-Roma,Cidade
-Toronto,Cidade
-Sydney,Cidade
-Pizza,Comida
-Hambúrguer,Comida
-Sushi,Comida
-Lasanha,Comida
-Taco,Comida
-Salada,Comida
-Bolo,Comida
-Chocolate,Comida
-Sorvete,Comida
-Macarrão,Comida
-Computador,Tecnologia
-Smartphone,Tecnologia
-Internet,Tecnologia
-Servidor,Tecnologia
-Banco de Dados,Tecnologia
-JavaScript,Tecnologia
-Python,Tecnologia
-Java,Tecnologia
-Linux,Tecnologia
-Windows,Tecnologia
-Titanic,Filme
-Avatar,Filme
-Matrix,Filme
-Gladiador,Filme
-Interestelar,Filme
-Inception,Filme
-Frozen,Filme
-Shrek,Filme
-Batman,Filme
-Superman,Filme
-Breaking Bad,Série
-Stranger Things,Série
-The Office,Série
-Friends,Série
-Game of Thrones,Série
-The Witcher,Série
-Dark,Série
-Loki,Série
-The Mandalorian,Série
-Narcos,Série
+#[word, category, tip]
+Abacate,Fruta,Alguns colocam no pão, outros transformam em creme
+Roma,Fruta,Cheia de pequenas partes vermelhas dentro
+Minecraft,Jogo,Tudo começa com um soco em uma árvore
+Roblox,Jogo,Milhares de experiências dentro de um só lugar
+Free Fire,Jogo,A zona segura vai diminuindo
+Banana,Fruta,Amarela por fora, clara por dentro
+Maca,Fruta,Já causou problemas em histórias famosas
+Laranja,Fruta,Precisa de força nas mãos para abrir
+Manga,Fruta,Doce e suculenta, mas pode ser bem grudenta
+Melancia,Fruta,Muito pesada para levar inteira
+Cachorro,Animal,Costuma esperar alguém chegar em casa
+Gato,Animal,Age como dono da casa
+Elefante,Animal,Suas pegadas são difíceis de ignorar
+Leao,Animal,Seu som ecoa pela savana
+Tigre,Animal,Prefere agir sozinho
+Urso,Animal,Às vezes passa meses dormindo
+Girafa,Animal,Consegue olhar por cima da maioria
+Zebra,Animal,Parece que nunca saiu do modo preto e branco
+Canguru,Animal,Seu jeito de se mover é bem diferente
+Panda,Animal,Passa boa parte do dia mastigando
+Brasil,País,Tem uma grande floresta famosa
+Argentina,País,Muitos associam com carne e futebol
+Alemanha,País,Conhecido por precisão e engenharia
+Japao,País,Tradição antiga com tecnologia moderna
+Canada,País,Invernos longos e muita natureza
+Franca,País,Arte, moda e cafés nas ruas
+Italia,País,História antiga em praticamente cada cidade
+Portugal,País,De lá partiram muitas grandes navegações
+Mexico,País,Cores, festas e muita pimenta
+Australia,País,Boa parte da vida fica perto do litoral
+Sao Paulo,Cidade,Uma cidade que quase nunca dorme
+Paris,Cidade,Muitos casais sonham em visitar
+Toquio,Cidade,Luzes e multidões em movimento constante
+Nova York,Cidade,Arranha-céus e ruas sempre cheias
+Londres,Cidade,Chuva leve não impede a rotina
+Berlim,Cidade,Já foi dividida por um muro
+Madri,Cidade,Capital da Espanha
+Roma,Cidade,História antiga em cada esquina
+Toronto,Cidade,Mistura de culturas do mundo todo
+Sydney,Cidade,O mar faz parte da paisagem
+Pizza,Comida,Normalmente dividida em pedaços
+Hamburguer,Comida,Quase sempre cabe entre duas mãos
+Sushi,Comida,Muitas vezes vem em pequenas porções
+Lasanha,Comida,Camadas que escondem outras camadas
+Taco,Comida,Precisa tomar cuidado para não cair tudo
+Salada,Comida,Alguns comem por saúde, outros por obrigação
+Bolo,Comida,Geralmente aparece com velas
+Chocolate,Comida,Difícil comer só um pedaço
+Sorvete,Comida,Derrete se você demorar
+Macarrao,Comida,Alguns precisam ser enrolados
+Computador,Tecnologia,Sem ele muitos trabalhos param
+Smartphone,Tecnologia,Hoje quase ninguém sai sem
+Internet,Tecnologia,Conecta pessoas em qualquer lugar
+Servidor,Tecnologia,Trabalha silenciosamente nos bastidores
+Banco de Dados,Tecnologia,Guarda informações organizadas
+JavaScript,Tecnologia,Quase toda página moderna usa
+Python,Tecnologia,Conhecida por ser fácil de ler
+Java,Tecnologia,Presente em muitos sistemas grandes
+Linux,Tecnologia,Muito usado por quem gosta de controle
+Windows,Tecnologia,Provavelmente já apareceu na sua tela
+Titanic,Filme,Uma história de amor em uma viagem que deu errado
+Avatar,Filme,Um mundo azul bem diferente do nosso
+Matrix,Filme,A realidade pode não ser o que parece
+Gladiador,Filme,Honra e vingança em arenas antigas
+Interestelar,Filme,O tempo se comporta de forma estranha
+Inception,Filme,Sonhos dentro de sonhos
+Frozen,Filme,Uma música grudou na cabeça do mundo
+Shrek,Filme,Um conto de fadas nada tradicional
+Batman,Filme,Um herói que prefere a noite
+Superman,Filme,Um herói que veio de longe
+Breaking Bad,Série,Um caminho que começa pequeno e foge do controle
+Stranger Things,Série,Crianças enfrentando algo estranho
+The Office,Série,Rotina de trabalho cheia de situações absurdas
+Friends,Série,Conversas em um sofá famoso
+Game of Thrones,Série,O poder muda de mãos rapidamente
+The Witcher,Série,Moedas e monstros pelo caminho
+Dark,Série,Algumas coisas se repetem no tempo
+Loki,Série,Confusão em várias realidades
+The Mandalorian,Série,Um viajante solitário e um pequeno companheiro
+Narcos,Série,Poder e perigo no mundo do crime
+Samsung,Celular,Uma das maiores fabricantes do mundo
+Xiomi,Celular,Famosa por custo benefício
+Motorola,Celular,Já foi muito popular nos anos 2000
+Iphone,Celular,Muito associado a um certo logo de fruta
+LG,Celular,Mais conhecida por eletrônicos domésticos
+Black Berry,Celular,Já dominou o mundo corporativo

@@ -5,12 +5,16 @@
 #include <vector>
 #include <fstream>
 #include <algorithm>
+#if defined(_WIN32) || defined(_WIN64)
+#include <windows.h>
+#endif
 
 class Word {
 	public:
 		std::string word;
 		std::string catergory;
 		std::string wordClean;
+		std::string tip;
 };
 
 std::vector<Word> words;
@@ -69,6 +73,7 @@ int loadToMemoryWords() {
 		wordObj.wordClean = temp;
 
 		wordObj.catergory = parsed.at(1);
+		wordObj.tip = parsed.at(2);
 
 		words.emplace_back(wordObj);
 	}
@@ -152,7 +157,12 @@ void render(Word wordObj, int failed, std::vector<char> attemptedLetters) {
 	}
 
 	std::cout << std::endl << "   > " << showingWord << std::endl << std::endl;
-	std::cout << "| " << wordObj.catergory << " |" << std::endl;
+	std::cout << "| " << wordObj.catergory << " |";
+	if (failed >= 4) {
+		std::cout << wordObj.tip << " |" << std::endl;
+	} else {
+		std::cout << std::endl;
+	}
 
 	int temp = 0;
 	for (char c : attemptedLetters) {
@@ -179,19 +189,25 @@ void newGame() {
 	while (true) {
 		render(word, failed, attemptedLetters);
 
+		//std::cout << word.wordClean << std::endl;
+
 		if (failed == 6) {
 			std::cout << "\033[31m" << "Dead." << "\033[0m" << std::endl;
+			std::cout << "The word was " << word.word << "." << std::endl;
 			break;
 		}
 
 		int totalFound = 0;
-		for (char c : attemptedLetters) {
-			if (word.wordClean.find(c) != std::string::npos) {
+		for (char c : word.wordClean) {
+			if (isPresent(attemptedLetters, c)) {
+				//std::cout << c;
 				totalFound++;
 			}
 		}
 
-		if (totalFound >= word.wordClean.size()) {
+		//std::cout << totalFound << "|" << word.wordClean.length() << std::endl;
+
+		if (totalFound >= word.wordClean.length()) {
 			std::cout << "\033[32m" << "SUCCESS!!" << "\033[0m" << std::endl;
 			break;
 		}
@@ -232,6 +248,11 @@ void newGame() {
 }
 
 int main() {
+	#if defined(_WIN32) || defined(_WIN64)
+		SetConsoleOutputCP(CP_UTF8);
+		SetConsoleCP(CP_UTF8);
+	#endif
+
 	// Feeds the random lib with an seed.
 	std::srand(static_cast<unsigned int>(std::time(nullptr)));
 
