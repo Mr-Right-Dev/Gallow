@@ -14,7 +14,7 @@ class Word {
 		std::string word;
 		std::string catergory;
 		std::string wordClean;
-		std::string tip;
+		std::string tips[3];
 };
 
 std::vector<Word> words;
@@ -73,7 +73,9 @@ int loadToMemoryWords() {
 		wordObj.wordClean = temp;
 
 		wordObj.catergory = parsed.at(1);
-		wordObj.tip = parsed.at(2);
+		wordObj.tips[0] = parsed.at(2);
+		wordObj.tips[1] = parsed.at(3);
+		wordObj.tips[2] = parsed.at(4);
 
 		words.emplace_back(wordObj);
 	}
@@ -157,9 +159,13 @@ void render(Word wordObj, int failed, std::vector<char> attemptedLetters) {
 	}
 
 	std::cout << std::endl << "   > " << showingWord << std::endl << std::endl;
-	std::cout << "| " << wordObj.catergory << " |";
-	if (failed >= 4) {
-		std::cout << wordObj.tip << " |" << std::endl;
+	std::cout << "| " << wordObj.catergory << " | ";
+	if (failed >= 5) {
+		std::cout << wordObj.tips[2] << " |" << std::endl;
+	} else if (failed >= 4) {
+		std::cout << wordObj.tips[1] << " |" << std::endl;
+	} else if (failed >= 2) {
+		std::cout << wordObj.tips[0] << " |" << std::endl;
 	} else {
 		std::cout << std::endl;
 	}

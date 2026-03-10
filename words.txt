@@ -1,87 +1,173 @@
-#[word, category, tip]
-Abacate,Fruta,Alguns colocam no pão, outros transformam em creme
-Roma,Fruta,Cheia de pequenas partes vermelhas dentro
-Minecraft,Jogo,Tudo começa com um soco em uma árvore
-Roblox,Jogo,Milhares de experiências dentro de um só lugar
-Free Fire,Jogo,A zona segura vai diminuindo
-Banana,Fruta,Amarela por fora, clara por dentro
-Maca,Fruta,Já causou problemas em histórias famosas
-Laranja,Fruta,Precisa de força nas mãos para abrir
-Manga,Fruta,Doce e suculenta, mas pode ser bem grudenta
-Melancia,Fruta,Muito pesada para levar inteira
-Cachorro,Animal,Costuma esperar alguém chegar em casa
-Gato,Animal,Age como dono da casa
-Elefante,Animal,Suas pegadas são difíceis de ignorar
-Leao,Animal,Seu som ecoa pela savana
-Tigre,Animal,Prefere agir sozinho
-Urso,Animal,Às vezes passa meses dormindo
-Girafa,Animal,Consegue olhar por cima da maioria
-Zebra,Animal,Parece que nunca saiu do modo preto e branco
-Canguru,Animal,Seu jeito de se mover é bem diferente
-Panda,Animal,Passa boa parte do dia mastigando
-Brasil,País,Tem uma grande floresta famosa
-Argentina,País,Muitos associam com carne e futebol
-Alemanha,País,Conhecido por precisão e engenharia
-Japao,País,Tradição antiga com tecnologia moderna
-Canada,País,Invernos longos e muita natureza
-Franca,País,Arte, moda e cafés nas ruas
-Italia,País,História antiga em praticamente cada cidade
-Portugal,País,De lá partiram muitas grandes navegações
-Mexico,País,Cores, festas e muita pimenta
-Australia,País,Boa parte da vida fica perto do litoral
-Sao Paulo,Cidade,Uma cidade que quase nunca dorme
-Paris,Cidade,Muitos casais sonham em visitar
-Toquio,Cidade,Luzes e multidões em movimento constante
-Nova York,Cidade,Arranha-céus e ruas sempre cheias
-Londres,Cidade,Chuva leve não impede a rotina
-Berlim,Cidade,Já foi dividida por um muro
-Madri,Cidade,Capital da Espanha
-Roma,Cidade,História antiga em cada esquina
-Toronto,Cidade,Mistura de culturas do mundo todo
-Sydney,Cidade,O mar faz parte da paisagem
-Pizza,Comida,Normalmente dividida em pedaços
-Hamburguer,Comida,Quase sempre cabe entre duas mãos
-Sushi,Comida,Muitas vezes vem em pequenas porções
-Lasanha,Comida,Camadas que escondem outras camadas
-Taco,Comida,Precisa tomar cuidado para não cair tudo
-Salada,Comida,Alguns comem por saúde, outros por obrigação
-Bolo,Comida,Geralmente aparece com velas
-Chocolate,Comida,Difícil comer só um pedaço
-Sorvete,Comida,Derrete se você demorar
-Macarrao,Comida,Alguns precisam ser enrolados
-Computador,Tecnologia,Sem ele muitos trabalhos param
-Smartphone,Tecnologia,Hoje quase ninguém sai sem
-Internet,Tecnologia,Conecta pessoas em qualquer lugar
-Servidor,Tecnologia,Trabalha silenciosamente nos bastidores
-Banco de Dados,Tecnologia,Guarda informações organizadas
-JavaScript,Tecnologia,Quase toda página moderna usa
-Python,Tecnologia,Conhecida por ser fácil de ler
-Java,Tecnologia,Presente em muitos sistemas grandes
-Linux,Tecnologia,Muito usado por quem gosta de controle
-Windows,Tecnologia,Provavelmente já apareceu na sua tela
-Titanic,Filme,Uma história de amor em uma viagem que deu errado
-Avatar,Filme,Um mundo azul bem diferente do nosso
-Matrix,Filme,A realidade pode não ser o que parece
-Gladiador,Filme,Honra e vingança em arenas antigas
-Interestelar,Filme,O tempo se comporta de forma estranha
-Inception,Filme,Sonhos dentro de sonhos
-Frozen,Filme,Uma música grudou na cabeça do mundo
-Shrek,Filme,Um conto de fadas nada tradicional
-Batman,Filme,Um herói que prefere a noite
-Superman,Filme,Um herói que veio de longe
-Breaking Bad,Série,Um caminho que começa pequeno e foge do controle
-Stranger Things,Série,Crianças enfrentando algo estranho
-The Office,Série,Rotina de trabalho cheia de situações absurdas
-Friends,Série,Conversas em um sofá famoso
-Game of Thrones,Série,O poder muda de mãos rapidamente
-The Witcher,Série,Moedas e monstros pelo caminho
-Dark,Série,Algumas coisas se repetem no tempo
-Loki,Série,Confusão em várias realidades
-The Mandalorian,Série,Um viajante solitário e um pequeno companheiro
-Narcos,Série,Poder e perigo no mundo do crime
-Samsung,Celular,Uma das maiores fabricantes do mundo
-Xiomi,Celular,Famosa por custo benefício
-Motorola,Celular,Já foi muito popular nos anos 2000
-Iphone,Celular,Muito associado a um certo logo de fruta
-LG,Celular,Mais conhecida por eletrônicos domésticos
-Black Berry,Celular,Já dominou o mundo corporativo
+#[word,category,tip1,tip2,tip3]
+Avocado,Fruit,Often mashed in some cuisines,Green creamy texture,Common on toast
+Pomegranate,Fruit,Contains many small jewels,Red seeds inside,Used in juice
+Banana,Fruit,Curved tropical food,Yellow peel,Monkeys love it
+Apple,Fruit,Associated with knowledge stories,Red or green fruit,Keeps the doctor away
+Orange,Fruit,Known for citrus aroma,Needs peeling,Rich in vitamin C
+Mango,Fruit,Tropical sweetness,Juicy orange flesh,Large pit inside
+Watermelon,Fruit,Very heavy fruit,Green outside red inside,Popular summer fruit
+Pineapple,Fruit,Spiky crown on top,Yellow inside,Sweet tropical taste
+Strawberry,Fruit,Seeds outside the skin,Small red fruit,Often with cream
+Grape,Fruit,Grows in clusters,Used for wine,Small round fruit
+Peach,Fruit,Soft fuzzy skin,Sweet orange flesh,Large pit
+Pear,Fruit,Bell shaped fruit,Soft texture,Green or yellow skin
+Cherry,Fruit,Very small fruit,Often on desserts,Red with a pit
+Blueberry,Fruit,Tiny dark berries,Used in muffins,Blue color
+Kiwi,Fruit,Brown fuzzy outside,Green interior with seeds,Tangy taste
+
+Dog,Animal,Loyal companion,Barks,Common household pet
+Cat,Animal,Independent personality,Says meow,Hunts mice
+Elephant,Animal,Massive land mammal,Has a trunk,Large ears
+Lion,Animal,African apex predator,Runs in prides,King of the jungle
+Tiger,Animal,Striped predator,Large wild cat,Orange with black stripes
+Bear,Animal,Forest giant,Hibernates,Likes honey
+Giraffe,Animal,Tallest land animal,Long neck,Eats high leaves
+Zebra,Animal,African herd animal,Striped body,Looks like a horse
+Kangaroo,Animal,Powerful legs,Jumps and has pouch,Lives in Australia
+Panda,Animal,Bamboo eater,Black and white bear,Native to China
+Wolf,Animal,Hunts in packs,Howls at night,Wild dog
+Fox,Animal,Clever reputation,Red fur,Pointy ears
+Owl,Animal,Night hunter,Large eyes,Bird of prey
+Eagle,Animal,Powerful bird,Sharp vision,Symbol of strength
+Shark,Animal,Ocean predator,Rows of teeth,Fish with fins
+
+Brazil,Country,South American giant,Amazon rainforest,Speaks Portuguese
+Argentina,Country,Famous for tango,Football passion,Capital Buenos Aires
+Germany,Country,Engineering reputation,European nation,Capital Berlin
+Japan,Country,Island nation,Technology leader,Capital Tokyo
+Canada,Country,Cold northern country,Maple leaf flag,Capital Ottawa
+France,Country,Romantic culture,Eiffel Tower location,Capital Paris
+Italy,Country,Historic empire land,Shape like a boot,Famous for pasta
+Portugal,Country,Historic sailors,European nation,Speaks Portuguese
+Mexico,Country,Colorful traditions,Spicy cuisine,North America nation
+Australia,Country,Island continent,Kangaroos live here,Capital Canberra
+India,Country,Second most populous,Taj Mahal location,South Asia nation
+China,Country,Great Wall location,Very large population,East Asia country
+Spain,Country,Flamenco music,European country,Capital Madrid
+Egypt,Country,Ancient pyramids,African country,Nile river
+Norway,Country,Land of fjords,Cold climate,Scandinavian nation
+
+Paris,City,European romance center,Eiffel Tower here,Capital of France
+Tokyo,City,Neon metropolis,Very crowded,Capital of Japan
+NewYork,City,Statue of Liberty,Tall skyscrapers,US metropolis
+London,City,Historic monarchy city,Big Ben clock,Capital UK
+Berlin,City,Historic wall city,European capital,Germany capital
+Madrid,City,Spanish capital,Real Madrid team,Sunny European city
+Rome,City,Ancient empire center,Colosseum landmark,Italian capital
+Toronto,City,Multicultural city,Canadian metropolis,CN Tower
+Sydney,City,Famous opera house,Harbor city,Australia city
+SaoPaulo,City,Brazil economic center,Very populated city,Located in Brazil
+
+Pizza,Food,Italian baked dish,Round with toppings,Cheese and tomato
+Hamburger,Food,Fast food classic,Beef patty sandwich,Often with fries
+Sushi,Food,Japanese cuisine,Rice rolls,Oft with fish
+Lasagna,Food,Layered pasta dish,Oven baked,Italian meal
+Taco,Food,Street food staple,Tortilla folded,Popular in Mexico
+Salad,Food,Fresh vegetable mix,Healthy meal,Often green
+Cake,Food,Celebration dessert,Sweet baked dish,Has candles
+Chocolate,Food,Cocoa product,Sweet treat,Bars or candy
+IceCream,Food,Frozen dessert,Melts quickly,Many flavors
+Pasta,Food,Italian staple,Noodles with sauce,Common dinner
+
+Computer,Technology,Electronic processor machine,Used for work,Has CPU
+Smartphone,Technology,Portable device,Touch screen,Used daily
+Internet,Technology,Global network,Connects computers,Access websites
+Server,Technology,Backend machine,Hosts services,Runs websites
+Database,Technology,Stores structured data,Tables and queries,Used by apps
+JavaScript,Technology,Web scripting language,Runs in browser,Interactive pages
+Python,Technology,Readable programming language,Popular for AI,Simple syntax
+Java,Technology,Enterprise language,Runs on JVM,Used in big systems
+Linux,Technology,Open source OS,Popular for servers,Many distributions
+Windows,Technology,Microsoft OS,Common desktop system,Graphical interface
+
+Titanic,Movie,Historic ship tragedy,Romance story,Sinking ship film
+Avatar,Movie,Alien planet story,Blue humanoids,Directed by Cameron
+Matrix,Movie,Reality illusion theme,Green code visuals,Red pill
+Gladiator,Movie,Ancient Roman revenge,Arena battles,Oscar winner
+Interstellar,Movie,Space time journey,Black holes,Nolan film
+Inception,Movie,Dream manipulation story,Layered dreams,Spinning top
+Frozen,Movie,Ice princess story,Disney musical,Let it go song
+Shrek,Movie,Ogre hero story,Fairy tale parody,Green ogre
+Batman,Movie,Dark superhero,Gotham protector,Uses gadgets
+Superman,Movie,Alien hero,Red cape,Super strength
+
+#[word,category,tip1,tip2,tip3]
+Car,Vehicle,Personal transport machine,Four wheels vehicle,Used to drive on roads
+Airplane,Vehicle,Flies long distances,Has wings,Used in air travel
+Helicopter,Vehicle,Rotating blades aircraft,Can hover in air,Often used for rescue
+Bicycle,Vehicle,Human powered transport,Two wheels vehicle,You pedal it
+Motorcycle,Vehicle,Two wheel engine vehicle,Rider wears helmet,Faster than bicycle
+Bus,Vehicle,Large public transport,Many passengers,City transport vehicle
+Train,Vehicle,Runs on rails,Long connected wagons,Public rail transport
+Boat,Vehicle,Water transport,Floats on water,Used in rivers or sea
+Submarine,Vehicle,Underwater vessel,Military or research use,Travels under sea
+Rocket,Vehicle,Launch vehicle,Used for space travel,Very powerful engines
+
+Doctor,Job,Medical professional,Treats patients,Works in hospital
+Teacher,Job,Education professional,Works in school,Teaches students
+Engineer,Job,Technical profession,Designs systems,Works with technology
+Chef,Job,Cooking expert,Works in kitchen,Prepares meals
+Police,Job,Law enforcement role,Protects citizens,Wears uniform
+Firefighter,Job,Emergency responder,Fights fires,Drives fire truck
+Pilot,Job,Operates aircraft,Flies planes,Works for airlines
+Farmer,Job,Agriculture worker,Grows crops,Works on farm
+Artist,Job,Creative professional,Makes art,Paints or draws
+Programmer,Job,Software creator,Writes code,Works with computers
+
+Guitar,Instrument,String instrument,Used in many genres,Six strings
+Piano,Instrument,Large keyboard instrument,Many keys,Used in classical music
+Violin,Instrument,Small string instrument,Played with bow,Used in orchestras
+Drums,Instrument,Rhythm instrument,Hit with sticks,Used in bands
+Flute,Instrument,Wind instrument,Blown from side,High pitch sound
+Trumpet,Instrument,Brass instrument,Loud bright sound,Used in jazz
+Saxophone,Instrument,Brass wind instrument,Common in jazz,Curved shape
+Cello,Instrument,Large violin family instrument,Deep sound,Played sitting
+Harp,Instrument,Many vertical strings,Plucked instrument,Used in orchestras
+Clarinet,Instrument,Woodwind instrument,Black body instrument,Used in bands
+
+Mercury,Space,Closest planet to sun,Very hot surface,Small rocky planet
+Venus,Space,Bright morning star,Very hot planet,Second from sun
+Earth,Space,Our home planet,Blue oceans present,Supports life
+Mars,Space,Red colored planet,Possible past water,Target for missions
+Jupiter,Space,Gas giant planet,Very large size,Has big red spot
+Saturn,Space,Famous ring system,Gas giant planet,Many moons
+Uranus,Space,Ice giant planet,Tilts sideways,Blue color
+Neptune,Space,Farthest major planet,Very strong winds,Deep blue planet
+Moon,Space,Natural satellite of Earth,Seen at night,Orbits Earth
+Sun,Space,Center star of system,Provides light,Massive hot star
+
+Hammer,Object,Construction tool,Used with nails,Metal head tool
+Screwdriver,Object,Tool for screws,Turns fasteners,Used in repairs
+Knife,Object,Sharp kitchen tool,Used to cut food,Blade tool
+Fork,Object,Eating utensil,Has prongs,Used with food
+Spoon,Object,Eating utensil,Round bowl shape,Used for soup
+Chair,Object,Furniture item,Used for sitting,Has legs
+Table,Object,Furniture surface,Used for meals,Flat top
+Bed,Object,Furniture for sleeping,Soft mattress,Used at night
+Clock,Object,Time measuring device,Has hands or digits,Shows time
+Mirror,Object,Reflective surface,Shows reflection,Used in bathroom
+
+Football,Sport,Played worldwide,11 players per team,Soccer game
+Basketball,Sport,Hoop scoring sport,Orange ball,Played on court
+Tennis,Sport,Racket sport,Net in middle,Played singles or doubles
+Volleyball,Sport,Net team sport,Ball cannot touch ground,Beach version exists
+Baseball,Sport,Bat and ball sport,Nine innings,Popular in USA
+Cricket,Sport,Long bat sport,Popular in India,Played on pitch
+Hockey,Sport,Stick sport,Puck on ice,Very fast game
+Rugby,Sport,Physical ball sport,Oval ball,Popular in UK
+Swimming,Sport,Water racing sport,Olympic event,Uses lanes
+Cycling,Sport,Bicycle racing sport,Road races exist,Uses helmets
+
+Chess,Game,Strategy board game,Black and white pieces,Checkmate goal
+Checkers,Game,Board strategy game,Diagonal moves,Red and black pieces
+Poker,Game,Card gambling game,Uses chips,Bluffing common
+Monopoly,Game,Economic board game,Buy properties,Board game classic
+Tetris,Game,Falling block puzzle,Rotate shapes,Classic video game
+Pacman,Game,Arcade maze game,Yellow character,Eats dots
+Fortnite,Game,Battle royale shooter,Build structures,Online multiplayer
+Overwatch,Game,Team hero shooter,Unique characters,Blizzard game
+Valorant,Game,Tactical shooter,Agents abilities,Riot game
+LeagueOfLegends,Game,MOBA game,Two teams fight,Destroy nexus
+
+a320N,Aviation,Very used,Airbus,It's know for bein economic
+Boing 373,Aviation,Very used,Boing,It's lame
